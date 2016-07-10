@@ -1,0 +1,28 @@
+{
+    "name": "interophp/injector",
+    "description": "Inject dependencies into constructors and methods",
+    "homepage": "http://www.github.com/interophp/injector",
+    "keywords": ["php", "injector", "inject", "injection", "dependencies", "auto-resolve", "linkorb"],
+    "type": "library",
+    "authors": [
+        {
+            "name":     "LinkORB Engineering",
+            "email":    "engineering@linkorb.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.0"
+    },
+    "require-dev": {
+        "acclimate/container": "~1.0",
+        "container-interop/container-interop": "~1.0",
+        "psr/http-message": "~1.0",
+        "zendframework/zend-diactoros": "~1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "InteroPhp\\Injector\\": "src/"
+        }
+    },
+    "license": "MIT"
+}
